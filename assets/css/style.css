@@ -4,17 +4,18 @@
 }
 
 :root{
-   mainblu: #45abea;
+   --mainblu: #45abea;
    /*other colors*/
-   lightblu: #64c0a9;
-   purple: #9c72e4;
-   pink: #d863a1;
-   orange: #f29e33;
-   green: #b0c926;
+   --lightblu: #64c0a9;
+   --purple: #9c72e4;
+   --pink: #d863a1;
+   --orange: #f29e33;
+   --green: #b0c926;
 }
 
 body{
 background-color: rgb(181, 180, 180);
+font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -46,13 +47,14 @@ h1{
     background-color: white;
     padding: 20px 30px;
     border-radius: 5px 5px 0px 0px;
-    margin-bottom: 2 px;
+    margin-bottom: 2px ;
 }
 
 .button{
 padding: 5px 5px;
 border-radius: 5px;
 margin-left: 5px;
+border-style: solid;
 }
 
 #add-task{
@@ -65,4 +67,81 @@ margin-left: 5px;
     background-color: #ffffff;
     color: rgb(181, 180, 180);
     border-color: rgb(181, 180, 180);
+}
+
+.corpo{
+    background-color: white;
+    padding-bottom: 20px;
+     border-radius: 0px 0px 5px 5px;
+    margin-bottom: 50px;
+}
+
+h3{
+    display: inline-block;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li{
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+span{
+    margin: 0px 3px;
+}
+.green{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+   text-align: center;
+   line-height: 15px;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+   text-align: center;
+   line-height: 15px;
+}
+
+.status{
+color: white;
+font-size: 10px;
+border-radius: 10px;
+padding: 5px 10px;
+vertical-align: middle;
+box-sizing: content-box;
+}
+
+.btn-blu {
+    background-color: var(--mainblu);
+}
+.btn-purple {
+    background-color: var(--purple)
+}
+.btn-green {
+    background-color:var(--green)
+}
+.btn-orange {
+    background-color:var(--orange)
+}
+.btn-pink {
+    background-color:var(--pink)
+}
+.btn-ligthblu {
+    background-color: var(--lightblu)
 }
