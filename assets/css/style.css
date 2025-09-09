@@ -1,6 +1,16 @@
 *{
     margin: 0;
-    
+
+}
+
+:root{
+   mainblu: #45abea;
+   /*other colors*/
+   lightblu: #64c0a9;
+   purple: #9c72e4;
+   pink: #d863a1;
+   orange: #f29e33;
+   green: #b0c926;
 }
 
 body{
@@ -14,6 +24,7 @@ header {
     font-size: larger;
     text-align: left;
     padding-left: 40px;
+    margin-bottom: 35px;
 }
 
 img{
@@ -24,4 +35,34 @@ img{
 h1{
     vertical-align: middle;
     display: inline-block;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+}
+
+.menù{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 2 px;
+}
+
+.button{
+padding: 5px 5px;
+border-radius: 5px;
+margin-left: 5px;
+}
+
+#add-task{
+    background-color: #45abea;
+    color: white;
+    border-color: #45abea;
+}
+
+#add-section{
+    background-color: #ffffff;
+    color: rgb(181, 180, 180);
+    border-color: rgb(181, 180, 180);
 }
